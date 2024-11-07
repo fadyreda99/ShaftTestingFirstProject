@@ -1,0 +1,229 @@
+[INFO ] 2024-11-07 15:48:14.786 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:48:14.838 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-11-07 15:48:15.080 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-11-07 15:48:15.113 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-11-07 15:48:15.124 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-11-07 15:48:15.974 [main] Utils - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-11-07 15:48:16.152 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:48:16.524 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-11-07 15:48:17.130 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                           'FullCycleTest.beforeClass'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:48:17.146 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/TestData.json".
+[INFO ] 2024-11-07 15:48:17.185 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-11-07 15:48:17.853 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeClass'
+[INFO ] 2024-11-07 15:48:17.941 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                              'FullCycleTest.setup'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:48:18.169 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-11-07 15:48:19.335 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-11-07 15:48:19.386 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.25".
+[INFO ] 2024-11-07 15:48:20.028 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\dell\IdeaProjects\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-11-07 15:48:20.032 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-11-07 15:48:20.033 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2024-11-07 15:48:22.996 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-11-07 15:48:23.059 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[WARN ] 2024-11-07 15:48:27.555 [main] ReportManager - Nov 07, 2024 3:48:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-11-07 15:48:27.556 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
+[INFO ] 2024-11-07 15:48:27.564 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-11-07 15:48:27.578 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2024-11-07 15:48:27.783 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                       Test Method: 'FullCycleTest.tests'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:48:29.713 [main] ReportManager - Target URL: "http://www.automationpractice.pl/"
+[INFO ] 2024-11-07 15:48:29.764 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-11-07 15:48:34.156 [main] ReportManager - Navigate to url "http://www.automationpractice.pl/".
+[INFO ] 2024-11-07 15:48:35.050 [main] ReportManager - Click "Sign in"
+[INFO ] 2024-11-07 15:48:35.452 [main] ReportManager - Type "Email address"
+[INFO ] 2024-11-07 15:48:35.565 [main] ReportManager - Click " Create an account"
+[INFO ] 2024-11-07 15:48:36.542 [main] ReportManager - Click "Mr."
+[INFO ] 2024-11-07 15:48:36.756 [main] ReportManager - Type "First name *"
+[INFO ] 2024-11-07 15:48:36.960 [main] ReportManager - Type "Last name *"
+[INFO ] 2024-11-07 15:48:37.228 [main] ReportManager - Type "Password *"
+[INFO ] 2024-11-07 15:48:38.538 [main] ReportManager - Select "14" from "By.id: days".
+[INFO ] 2024-11-07 15:48:39.137 [main] ReportManager - Select "6" from "By.id: months".
+[INFO ] 2024-11-07 15:48:40.216 [main] ReportManager - Select "1999" from "By.id: years".
+[INFO ] 2024-11-07 15:48:40.290 [main] ReportManager - Click "Sign up for our newsletter!"
+[DEBUG] 2024-11-07 15:48:44.181 [] DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@31495242 closed
+[DEBUG] 2024-11-07 15:48:44.181 [] DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@31495242 shut down
+[DEBUG] 2024-11-07 15:48:44.181 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@63245d75
+[WARN ] 2024-11-07 15:48:44.183 [] ReportManager - Exception in thread "" java.net.ConnectException: Connection timed out: getsockopt
+[WARN ] 2024-11-07 15:48:44.183 [] ReportManager - 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[WARN ] 2024-11-07 15:48:44.184 [] ReportManager - 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+[WARN ] 2024-11-07 15:48:44.184 [] ReportManager - 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:598)
+[WARN ] 2024-11-07 15:48:44.184 [] ReportManager - 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[WARN ] 2024-11-07 15:48:44.185 [] ReportManager - 	at java.base/java.net.Socket.connect(Socket.java:760)
+[WARN ] 2024-11-07 15:48:44.185 [] ReportManager - 	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:543)
+[WARN ] 2024-11-07 15:48:44.185 [] ReportManager - 	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+[WARN ] 2024-11-07 15:48:44.185 [] ReportManager - 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+[WARN ] 2024-11-07 15:48:44.185 [] ReportManager - 	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+[WARN ] 2024-11-07 15:48:44.186 [] ReportManager - 	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+[WARN ] 2024-11-07 15:48:44.187 [] ReportManager - 	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+[WARN ] 2024-11-07 15:48:44.187 [] ReportManager - 	at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.187 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.187 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+[WARN ] 2024-11-07 15:48:44.188 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+[WARN ] 2024-11-07 15:48:44.188 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+[WARN ] 2024-11-07 15:48:44.188 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.188 [] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-11-07 15:48:44.189 [] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-11-07 15:48:44.189 [] ReportManager - 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+[WARN ] 2024-11-07 15:48:44.189 [] ReportManager - 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+[WARN ] 2024-11-07 15:48:44.190 [] ReportManager - 	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+[WARN ] 2024-11-07 15:48:44.190 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+[WARN ] 2024-11-07 15:48:44.190 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+[WARN ] 2024-11-07 15:48:44.190 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+[WARN ] 2024-11-07 15:48:44.190 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.191 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+[WARN ] 2024-11-07 15:48:44.191 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+[WARN ] 2024-11-07 15:48:44.191 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+[WARN ] 2024-11-07 15:48:44.191 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+[WARN ] 2024-11-07 15:48:44.191 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+[WARN ] 2024-11-07 15:48:44.192 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.192 [] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-11-07 15:48:44.192 [] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-11-07 15:48:44.192 [] ReportManager - 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+[WARN ] 2024-11-07 15:48:44.192 [] ReportManager - 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+[WARN ] 2024-11-07 15:48:44.193 [] ReportManager - 	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+[WARN ] 2024-11-07 15:48:44.193 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+[WARN ] 2024-11-07 15:48:44.193 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+[WARN ] 2024-11-07 15:48:44.194 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+[WARN ] 2024-11-07 15:48:44.195 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.195 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+[WARN ] 2024-11-07 15:48:44.196 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.197 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+[WARN ] 2024-11-07 15:48:44.197 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+[WARN ] 2024-11-07 15:48:44.198 [] ReportManager - 	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+[WARN ] 2024-11-07 15:48:44.198 [] ReportManager - 	at io.restassured.filter.Filter$filter.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.198 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.199 [] ReportManager - 	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.200 [] ReportManager - 	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+[WARN ] 2024-11-07 15:48:44.200 [] ReportManager - 	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+[WARN ] 2024-11-07 15:48:44.200 [] ReportManager - 	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.201 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.201 [] ReportManager - 	at io.restassured.filter.Filter$filter.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.201 [] ReportManager - 	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+[WARN ] 2024-11-07 15:48:44.202 [] ReportManager - 	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.202 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.202 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+[WARN ] 2024-11-07 15:48:44.203 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+[WARN ] 2024-11-07 15:48:44.204 [] ReportManager - 	at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+[WARN ] 2024-11-07 15:48:44.205 [] ReportManager - 	at io.restassured.filter.Filter$filter.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.205 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.205 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+[WARN ] 2024-11-07 15:48:44.205 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
+[WARN ] 2024-11-07 15:48:44.205 [] ReportManager - 	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+[WARN ] 2024-11-07 15:48:44.206 [] ReportManager - 	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+[WARN ] 2024-11-07 15:48:44.206 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+[WARN ] 2024-11-07 15:48:44.206 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+[WARN ] 2024-11-07 15:48:44.207 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+[WARN ] 2024-11-07 15:48:44.208 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+[WARN ] 2024-11-07 15:48:44.208 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.209 [] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-11-07 15:48:44.209 [] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-11-07 15:48:44.209 [] ReportManager - 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+[WARN ] 2024-11-07 15:48:44.210 [] ReportManager - 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+[WARN ] 2024-11-07 15:48:44.210 [] ReportManager - 	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+[WARN ] 2024-11-07 15:48:44.210 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+[WARN ] 2024-11-07 15:48:44.212 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+[WARN ] 2024-11-07 15:48:44.214 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+[WARN ] 2024-11-07 15:48:44.214 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.215 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+[WARN ] 2024-11-07 15:48:44.215 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+[WARN ] 2024-11-07 15:48:44.215 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+[WARN ] 2024-11-07 15:48:44.216 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+[WARN ] 2024-11-07 15:48:44.216 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+[WARN ] 2024-11-07 15:48:44.218 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+[WARN ] 2024-11-07 15:48:44.218 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.218 [] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-11-07 15:48:44.219 [] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-11-07 15:48:44.219 [] ReportManager - 	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+[WARN ] 2024-11-07 15:48:44.220 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.221 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+[WARN ] 2024-11-07 15:48:44.221 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+[WARN ] 2024-11-07 15:48:44.221 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+[WARN ] 2024-11-07 15:48:44.221 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+[WARN ] 2024-11-07 15:48:44.222 [] ReportManager - 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+[WARN ] 2024-11-07 15:48:44.222 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+[WARN ] 2024-11-07 15:48:44.222 [] ReportManager - 	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+[WARN ] 2024-11-07 15:48:44.222 [] ReportManager - 	at com.shaft.listeners.internal.UpdateChecker.getLatestVersionFromGitHub(UpdateChecker.java:39)
+[WARN ] 2024-11-07 15:48:44.223 [] ReportManager - 	at com.shaft.listeners.internal.UpdateChecker.check(UpdateChecker.java:24)
+[WARN ] 2024-11-07 15:48:44.233 [] ReportManager - 	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+[INFO ] 2024-11-07 15:48:47.069 [main] ReportManager - Click "Register "
+[INFO ] 2024-11-07 15:48:48.083 [main] ReportManager - Click "Sign out"
+[INFO ] 2024-11-07 15:48:48.279 [main] ReportManager - Type "Email address"
+[INFO ] 2024-11-07 15:48:48.466 [main] ReportManager - Type "Password"
+[INFO ] 2024-11-07 15:48:49.606 [main] ReportManager - Click " Sign in"
+[INFO ] 2024-11-07 15:48:49.773 [main] ReportManager - Type "Search"
+[INFO ] 2024-11-07 15:48:50.701 [main] ReportManager - Click ""
+[INFO ] 2024-11-07 15:48:51.399 [main] ReportManager - Hover over "By.xpath: //div[@class="product-container"][1]".
+[INFO ] 2024-11-07 15:48:52.407 [main] ReportManager - Click "By.xpath: //a[@title="View"][1]//span"
+[INFO ] 2024-11-07 15:48:53.013 [main] ReportManager - Select "L" from "Size ".
+[INFO ] 2024-11-07 15:48:53.139 [main] ReportManager - Click " Add to cart"
+[INFO ] 2024-11-07 15:48:54.450 [main] ReportManager - Click "Proceed to checkout "
+[INFO ] 2024-11-07 15:48:54.594 [main] ReportManager - Get text "Blouse" from "By.xpath: //div[@class="cart_last_product_content"]//p//a".
+[INFO ] 2024-11-07 15:48:54.649 [main] ReportManager - Verify that the element located by "By.xpath: //input[@name="quantity_2_11_0_0"]" text is equal to "1".
+[DEBUG] 2024-11-07 15:48:54.993 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-07 15:49:17.326 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_15-49-17-322_07112024'
+[INFO ] 2024-11-07 15:49:17.328 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-07 15:49:17.329 [main] ReportManager - Verification passed
+[INFO ] 2024-11-07 15:49:17.356 [main] ReportManager - Verify that the element located by "By.id: total_product_price_2_11_0" text is equal to "$27".
+[DEBUG] 2024-11-07 15:49:17.468 [main] ReportManager - Expected "$27", and actual "$27"
+[INFO ] 2024-11-07 15:49:19.454 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_15-49-19-450_07112024'
+[INFO ] 2024-11-07 15:49:19.454 [main] ReportManager - Expected "$27", and actual "$27"
+[INFO ] 2024-11-07 15:49:19.455 [main] ReportManager - Verification passed
+[INFO ] 2024-11-07 15:49:19.464 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tests'
+[INFO ] 2024-11-07 15:49:19.464 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Finished Execution of Test Method: 'FullCycleTest.tests'                                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:49:19.502 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                            'FullCycleTest.tearDown'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:49:20.252 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-11-07 15:49:20.253 [main] ReportManager - Close current window.
+[INFO ] 2024-11-07 15:49:20.258 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[INFO ] 2024-11-07 15:49:20.261 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-11-07 15:49:20.269 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-07 15:49:20.271 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
