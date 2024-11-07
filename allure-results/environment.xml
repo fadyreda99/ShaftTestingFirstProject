@@ -14,7 +14,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket34413 @w@C:\Users\dell\AppData\Local\Temp\idea_working_dirs_testng1.tmp -temp C:\Users\dell\AppData\Local\Temp\idea_testng1.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket34648 @w@C:\Users\dell\AppData\Local\Temp\idea_working_dirs_testng1.tmp -temp C:\Users\dell\AppData\Local\Temp\idea_testng1.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -130,15 +130,11 @@
   </parameter>
   <parameter>
     <key>disableLogging</key>
-    <value>false</value>
+    <value>true</value>
   </parameter>
   <parameter>
     <key>java.vm.compressedOopsMode</key>
     <value>Zero based</value>
-  </parameter>
-  <parameter>
-    <key>targetOperatingSystem</key>
-    <value>windows</value>
   </parameter>
   <parameter>
     <key>sun.java.launcher</key>
